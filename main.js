@@ -15,3 +15,11 @@ fetch('https://www.course-api.com/javascript-store-products')
         displayProducts(products);
     }
 )
+
+// Task 4: Handle Errors Gracefully
+    
+.catch(
+    error => {    
+        console.error("Something went wrong with the fetch operation:', error", error); 
+    }
+);
